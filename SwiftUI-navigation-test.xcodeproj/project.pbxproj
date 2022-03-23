@@ -35,6 +35,7 @@
 		412C38A927EB8B0900EF4005 /* GoBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412C38A727EB8B0900EF4005 /* GoBackView.swift */; };
 		41EFBB1927EB9C770064EE49 /* FirstViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EFBB1827EB9C770064EE49 /* FirstViewViewModel.swift */; };
 		41EFBB1B27EBB00D0064EE49 /* SecondViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EFBB1A27EBB00D0064EE49 /* SecondViewViewModel.swift */; };
+		41EFBB1D27EBB8C80064EE49 /* UIKitViewControllerWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EFBB1C27EBB8C80064EE49 /* UIKitViewControllerWrapperView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		412C38A727EB8B0900EF4005 /* GoBackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoBackView.swift; sourceTree = "<group>"; };
 		41EFBB1827EB9C770064EE49 /* FirstViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewViewModel.swift; sourceTree = "<group>"; };
 		41EFBB1A27EBB00D0064EE49 /* SecondViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewViewModel.swift; sourceTree = "<group>"; };
+		41EFBB1C27EBB8C80064EE49 /* UIKitViewControllerWrapperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitViewControllerWrapperView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +192,7 @@
 				412C388627E9F05000EF4005 /* SecondView.swift */,
 				412C38A727EB8B0900EF4005 /* GoBackView.swift */,
 				412C38A127EA067C00EF4005 /* NavigationControllerView.swift */,
+				41EFBB1C27EBB8C80064EE49 /* UIKitViewControllerWrapperView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -380,6 +383,7 @@
 				412C388A27E9F6D200EF4005 /* SwiftUICoordinator.swift in Sources */,
 				412C388727E9F05000EF4005 /* SecondView.swift in Sources */,
 				412C387427E9F01C00EF4005 /* FirstView.swift in Sources */,
+				41EFBB1D27EBB8C80064EE49 /* UIKitViewControllerWrapperView.swift in Sources */,
 				412C389627EA002200EF4005 /* ViewController.swift in Sources */,
 				412C389127E9FE7D00EF4005 /* TabContentView.swift in Sources */,
 				412C38A827EB8B0900EF4005 /* GoBackView.swift in Sources */,

@@ -55,20 +55,3 @@ class ViewController: UIViewController {
         delegate?.didTapButtonToNavigateToSwiftUI()
     }
 }
-
-struct UIKitViewController: UIViewControllerRepresentable {    
-    typealias UIViewControllerType = ViewController
-    weak var delegate: ViewControllerDelegate?
-    
-    init(delegate: ViewControllerDelegate?) {
-        self.delegate = delegate
-    }
-    func makeUIViewController(context: Context) -> ViewController {
-        let viewController = ViewController()
-        viewController.delegate = delegate
-        return viewController
-    }
-        
-    func updateUIViewController(_ uiViewController: ViewController, context: Context) {
-    }
-}

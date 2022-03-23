@@ -11,7 +11,7 @@ import SwiftUI
 
 class SecondViewViewModel {
     func buildUIKitView() -> some View {
-        let view = UIKitViewController(delegate: self)
+        let view = UIKitViewControllerWrapperView(delegate: self, title: "UIKit View")
         return view
     }
 }
