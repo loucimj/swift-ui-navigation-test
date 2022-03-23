@@ -11,9 +11,10 @@ import SwiftUI
 class TabCoordinator {
     
     let uiKitCoordinator = UIKitCoordinator()
+    let swiftUICoordinator = SwiftUICoordinator()
     @ViewBuilder
     func tab1View() -> some View {
-        FirstView(viewModel: FirstViewViewModel())
+        swiftUICoordinator.startingSwiftUIView()
     }
 
     @ViewBuilder

@@ -19,8 +19,8 @@
 		412C387727E9F01C00EF4005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 412C384C27E9F01C00EF4005 /* Assets.xcassets */; };
 		412C388727E9F05000EF4005 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412C388627E9F05000EF4005 /* SecondView.swift */; };
 		412C388827E9F05000EF4005 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412C388627E9F05000EF4005 /* SecondView.swift */; };
-		412C388A27E9F6D200EF4005 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412C388927E9F6D200EF4005 /* Coordinator.swift */; };
-		412C388B27E9F6D200EF4005 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412C388927E9F6D200EF4005 /* Coordinator.swift */; };
+		412C388A27E9F6D200EF4005 /* SwiftUICoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412C388927E9F6D200EF4005 /* SwiftUICoordinator.swift */; };
+		412C388B27E9F6D200EF4005 /* SwiftUICoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412C388927E9F6D200EF4005 /* SwiftUICoordinator.swift */; };
 		412C388D27E9FDA300EF4005 /* TabCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412C388C27E9FDA300EF4005 /* TabCoordinator.swift */; };
 		412C388E27E9FDA300EF4005 /* TabCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412C388C27E9FDA300EF4005 /* TabCoordinator.swift */; };
 		412C389127E9FE7D00EF4005 /* TabContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412C389027E9FE7D00EF4005 /* TabContentView.swift */; };
@@ -68,7 +68,7 @@
 		412C386E27E9F01C00EF4005 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		412C387027E9F01C00EF4005 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
 		412C388627E9F05000EF4005 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
-		412C388927E9F6D200EF4005 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		412C388927E9F6D200EF4005 /* SwiftUICoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICoordinator.swift; sourceTree = "<group>"; };
 		412C388C27E9FDA300EF4005 /* TabCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabCoordinator.swift; sourceTree = "<group>"; };
 		412C389027E9FE7D00EF4005 /* TabContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabContentView.swift; sourceTree = "<group>"; };
 		412C389527EA002200EF4005 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -175,8 +175,8 @@
 		412C388F27E9FDA700EF4005 /* Coordinators */ = {
 			isa = PBXGroup;
 			children = (
-				412C388927E9F6D200EF4005 /* Coordinator.swift */,
 				412C388C27E9FDA300EF4005 /* TabCoordinator.swift */,
+				412C388927E9F6D200EF4005 /* SwiftUICoordinator.swift */,
 				412C38A427EB854D00EF4005 /* UIKitCoordinator.swift */,
 			);
 			path = Coordinators;
@@ -377,7 +377,7 @@
 				412C38A227EA067C00EF4005 /* NavigationControllerView.swift in Sources */,
 				41EFBB1927EB9C770064EE49 /* FirstViewViewModel.swift in Sources */,
 				41EFBB1B27EBB00D0064EE49 /* SecondViewViewModel.swift in Sources */,
-				412C388A27E9F6D200EF4005 /* Coordinator.swift in Sources */,
+				412C388A27E9F6D200EF4005 /* SwiftUICoordinator.swift in Sources */,
 				412C388727E9F05000EF4005 /* SecondView.swift in Sources */,
 				412C387427E9F01C00EF4005 /* FirstView.swift in Sources */,
 				412C389627EA002200EF4005 /* ViewController.swift in Sources */,
@@ -394,7 +394,7 @@
 			files = (
 				412C388E27E9FDA300EF4005 /* TabCoordinator.swift in Sources */,
 				412C38A327EA067C00EF4005 /* NavigationControllerView.swift in Sources */,
-				412C388B27E9F6D200EF4005 /* Coordinator.swift in Sources */,
+				412C388B27E9F6D200EF4005 /* SwiftUICoordinator.swift in Sources */,
 				412C388827E9F05000EF4005 /* SecondView.swift in Sources */,
 				412C387527E9F01C00EF4005 /* FirstView.swift in Sources */,
 				412C389727EA002200EF4005 /* ViewController.swift in Sources */,

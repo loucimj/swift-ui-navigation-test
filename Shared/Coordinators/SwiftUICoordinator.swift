@@ -11,8 +11,12 @@ import UIKit
 
 
 
-class Coordinator {
+class SwiftUICoordinator {
     
+    func startingSwiftUIView() -> some View {
+        return FirstView(viewModel: FirstViewViewModel())
+    }
+
     var tabBar: UITabBar? {
         for window in UIApplication.shared.windows {
             for view in window.subviews {
