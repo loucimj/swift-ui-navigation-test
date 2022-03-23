@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 import SwiftUI
 
-struct NavigationController: UIViewControllerRepresentable {
+struct NavigationControllerView: UIViewControllerRepresentable {
     typealias UIViewControllerType = UINavigationController
     let viewControllers: [UIViewController]
 
@@ -18,6 +18,7 @@ struct NavigationController: UIViewControllerRepresentable {
     }
     func makeUIViewController(context: Context) -> UINavigationController {
         let navigationController = UINavigationController()
+        navigationController.hidesBottomBarWhenPushed = true
         navigationController.viewControllers = viewControllers
         return navigationController
     }

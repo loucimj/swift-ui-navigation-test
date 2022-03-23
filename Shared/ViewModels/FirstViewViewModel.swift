@@ -1,19 +1,22 @@
 //
-//  Coordinator.swift
-//  SwiftUI-navigation-test
+//  FirstViewViewModel.swift
+//  SwiftUI-navigation-test (iOS)
 //
-//  Created by Javier Loucim on 22/03/2022.
+//  Created by Javier Loucim on 23/03/2022.
 //
 
 import Foundation
-import SwiftUI
 import UIKit
+import SwiftUI
 
-
-
-class Coordinator {
+class FirstViewViewModel {
+    func buildSecondView() -> some View {
+        var view = SecondView(viewModel: SecondViewViewModel())
+        view.delegate = self
+        return view
+    }
     
-    var tabBar: UITabBar? {
+    private var tabBar: UITabBar? {
         for window in UIApplication.shared.windows {
             for view in window.subviews {
                 if let tabbar = getTabbar(view: view) {
@@ -35,15 +38,7 @@ class Coordinator {
         }
         return nil
     }
-        
-    func view2HasAppeared() {
-        hideTabBar()
-    }
-    func view2HasDisappeared() {
-        print("view 2 has disappeared!")
-        showTabBar()
-    }
-    
+            
     private func hideTabBar() {
         UIView.animate(withDuration: 0.3) {
             self.tabBar?.alpha = 0
@@ -56,4 +51,14 @@ class Coordinator {
         }
     }
 
+}
+
+extension FirstViewViewModel: SecondViewDelegate {
+    func secondViewHasAppeared() {
+        hideTabBar()
+    }
+    
+    func secondViewHasDisappeared() {
+        showTabBar()
+    }
 }

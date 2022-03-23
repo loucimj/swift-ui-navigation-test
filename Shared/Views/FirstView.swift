@@ -7,8 +7,8 @@
 
 import SwiftUI
 
-struct ContentView: View {
-    var coordinator = Coordinator()
+struct FirstView: View {
+    let viewModel: FirstViewViewModel
     @State var uiTabarController: UITabBarController?
 
     var body: some View {
@@ -16,7 +16,7 @@ struct ContentView: View {
             VStack {
                 Text("Hello, world!")
                     .padding()
-                NavigationLink(destination: coordinator.content2View()) {
+                NavigationLink(destination: viewModel.buildSecondView()) {
                     Text("Link to content view 2")
                 }
             }
@@ -27,6 +27,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        FirstView(viewModel: FirstViewViewModel())
     }
 }

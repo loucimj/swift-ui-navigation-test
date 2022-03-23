@@ -13,12 +13,12 @@
 		412C387127E9F01C00EF4005 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412C387027E9F01C00EF4005 /* Tests_macOSLaunchTests.swift */; };
 		412C387227E9F01C00EF4005 /* SwiftUI_navigation_testApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412C384A27E9F01B00EF4005 /* SwiftUI_navigation_testApp.swift */; };
 		412C387327E9F01C00EF4005 /* SwiftUI_navigation_testApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412C384A27E9F01B00EF4005 /* SwiftUI_navigation_testApp.swift */; };
-		412C387427E9F01C00EF4005 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412C384B27E9F01B00EF4005 /* ContentView.swift */; };
-		412C387527E9F01C00EF4005 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412C384B27E9F01B00EF4005 /* ContentView.swift */; };
+		412C387427E9F01C00EF4005 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412C384B27E9F01B00EF4005 /* FirstView.swift */; };
+		412C387527E9F01C00EF4005 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412C384B27E9F01B00EF4005 /* FirstView.swift */; };
 		412C387627E9F01C00EF4005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 412C384C27E9F01C00EF4005 /* Assets.xcassets */; };
 		412C387727E9F01C00EF4005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 412C384C27E9F01C00EF4005 /* Assets.xcassets */; };
-		412C388727E9F05000EF4005 /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412C388627E9F05000EF4005 /* ContentView2.swift */; };
-		412C388827E9F05000EF4005 /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412C388627E9F05000EF4005 /* ContentView2.swift */; };
+		412C388727E9F05000EF4005 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412C388627E9F05000EF4005 /* SecondView.swift */; };
+		412C388827E9F05000EF4005 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412C388627E9F05000EF4005 /* SecondView.swift */; };
 		412C388A27E9F6D200EF4005 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412C388927E9F6D200EF4005 /* Coordinator.swift */; };
 		412C388B27E9F6D200EF4005 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412C388927E9F6D200EF4005 /* Coordinator.swift */; };
 		412C388D27E9FDA300EF4005 /* TabCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412C388C27E9FDA300EF4005 /* TabCoordinator.swift */; };
@@ -27,9 +27,14 @@
 		412C389227E9FE7D00EF4005 /* TabContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412C389027E9FE7D00EF4005 /* TabContentView.swift */; };
 		412C389627EA002200EF4005 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412C389527EA002200EF4005 /* ViewController.swift */; };
 		412C389727EA002200EF4005 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412C389527EA002200EF4005 /* ViewController.swift */; };
-		412C38A027EA055200EF4005 /* SwiftUIKitView in Frameworks */ = {isa = PBXBuildFile; productRef = 412C389F27EA055200EF4005 /* SwiftUIKitView */; };
-		412C38A227EA067C00EF4005 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412C38A127EA067C00EF4005 /* NavigationController.swift */; };
-		412C38A327EA067C00EF4005 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412C38A127EA067C00EF4005 /* NavigationController.swift */; };
+		412C38A227EA067C00EF4005 /* NavigationControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412C38A127EA067C00EF4005 /* NavigationControllerView.swift */; };
+		412C38A327EA067C00EF4005 /* NavigationControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412C38A127EA067C00EF4005 /* NavigationControllerView.swift */; };
+		412C38A527EB854D00EF4005 /* UIKitCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412C38A427EB854D00EF4005 /* UIKitCoordinator.swift */; };
+		412C38A627EB854D00EF4005 /* UIKitCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412C38A427EB854D00EF4005 /* UIKitCoordinator.swift */; };
+		412C38A827EB8B0900EF4005 /* GoBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412C38A727EB8B0900EF4005 /* GoBackView.swift */; };
+		412C38A927EB8B0900EF4005 /* GoBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412C38A727EB8B0900EF4005 /* GoBackView.swift */; };
+		41EFBB1927EB9C770064EE49 /* FirstViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EFBB1827EB9C770064EE49 /* FirstViewViewModel.swift */; };
+		41EFBB1B27EBB00D0064EE49 /* SecondViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EFBB1A27EBB00D0064EE49 /* SecondViewViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +56,7 @@
 
 /* Begin PBXFileReference section */
 		412C384A27E9F01B00EF4005 /* SwiftUI_navigation_testApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_navigation_testApp.swift; sourceTree = "<group>"; };
-		412C384B27E9F01B00EF4005 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		412C384B27E9F01B00EF4005 /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
 		412C384C27E9F01C00EF4005 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		412C385127E9F01C00EF4005 /* SwiftUI-navigation-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-navigation-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		412C385727E9F01C00EF4005 /* SwiftUI-navigation-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-navigation-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,12 +67,16 @@
 		412C386A27E9F01C00EF4005 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		412C386E27E9F01C00EF4005 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		412C387027E9F01C00EF4005 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
-		412C388627E9F05000EF4005 /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
+		412C388627E9F05000EF4005 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 		412C388927E9F6D200EF4005 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		412C388C27E9FDA300EF4005 /* TabCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabCoordinator.swift; sourceTree = "<group>"; };
 		412C389027E9FE7D00EF4005 /* TabContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabContentView.swift; sourceTree = "<group>"; };
 		412C389527EA002200EF4005 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		412C38A127EA067C00EF4005 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		412C38A127EA067C00EF4005 /* NavigationControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationControllerView.swift; sourceTree = "<group>"; };
+		412C38A427EB854D00EF4005 /* UIKitCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitCoordinator.swift; sourceTree = "<group>"; };
+		412C38A727EB8B0900EF4005 /* GoBackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoBackView.swift; sourceTree = "<group>"; };
+		41EFBB1827EB9C770064EE49 /* FirstViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewViewModel.swift; sourceTree = "<group>"; };
+		41EFBB1A27EBB00D0064EE49 /* SecondViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +84,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				412C38A027EA055200EF4005 /* SwiftUIKitView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,7 +127,8 @@
 			children = (
 				412C384A27E9F01B00EF4005 /* SwiftUI_navigation_testApp.swift */,
 				412C389327E9FFAE00EF4005 /* Views */,
-				412C389427EA000C00EF4005 /* ViewController */,
+				412C38AB27EB9C3800EF4005 /* ViewModels */,
+				412C389427EA000C00EF4005 /* ViewControllers */,
 				412C388F27E9FDA700EF4005 /* Coordinators */,
 				412C384C27E9F01C00EF4005 /* Assets.xcassets */,
 			);
@@ -168,6 +177,7 @@
 			children = (
 				412C388927E9F6D200EF4005 /* Coordinator.swift */,
 				412C388C27E9FDA300EF4005 /* TabCoordinator.swift */,
+				412C38A427EB854D00EF4005 /* UIKitCoordinator.swift */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -176,19 +186,29 @@
 			isa = PBXGroup;
 			children = (
 				412C389027E9FE7D00EF4005 /* TabContentView.swift */,
-				412C384B27E9F01B00EF4005 /* ContentView.swift */,
-				412C388627E9F05000EF4005 /* ContentView2.swift */,
+				412C384B27E9F01B00EF4005 /* FirstView.swift */,
+				412C388627E9F05000EF4005 /* SecondView.swift */,
+				412C38A727EB8B0900EF4005 /* GoBackView.swift */,
+				412C38A127EA067C00EF4005 /* NavigationControllerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		412C389427EA000C00EF4005 /* ViewController */ = {
+		412C389427EA000C00EF4005 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
 				412C389527EA002200EF4005 /* ViewController.swift */,
-				412C38A127EA067C00EF4005 /* NavigationController.swift */,
 			);
-			path = ViewController;
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		412C38AB27EB9C3800EF4005 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				41EFBB1827EB9C770064EE49 /* FirstViewViewModel.swift */,
+				41EFBB1A27EBB00D0064EE49 /* SecondViewViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,7 +228,6 @@
 			);
 			name = "SwiftUI-navigation-test (iOS)";
 			packageProductDependencies = (
-				412C389F27EA055200EF4005 /* SwiftUIKitView */,
 			);
 			productName = "SwiftUI-navigation-test (iOS)";
 			productReference = 412C385127E9F01C00EF4005 /* SwiftUI-navigation-test.app */;
@@ -303,7 +322,6 @@
 			);
 			mainGroup = 412C384427E9F01B00EF4005;
 			packageReferences = (
-				412C389E27EA055200EF4005 /* XCRemoteSwiftPackageReference "SwiftUIKitView" */,
 			);
 			productRefGroup = 412C385227E9F01C00EF4005 /* Products */;
 			projectDirPath = "";
@@ -356,13 +374,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				412C388D27E9FDA300EF4005 /* TabCoordinator.swift in Sources */,
-				412C38A227EA067C00EF4005 /* NavigationController.swift in Sources */,
+				412C38A227EA067C00EF4005 /* NavigationControllerView.swift in Sources */,
+				41EFBB1927EB9C770064EE49 /* FirstViewViewModel.swift in Sources */,
+				41EFBB1B27EBB00D0064EE49 /* SecondViewViewModel.swift in Sources */,
 				412C388A27E9F6D200EF4005 /* Coordinator.swift in Sources */,
-				412C388727E9F05000EF4005 /* ContentView2.swift in Sources */,
-				412C387427E9F01C00EF4005 /* ContentView.swift in Sources */,
+				412C388727E9F05000EF4005 /* SecondView.swift in Sources */,
+				412C387427E9F01C00EF4005 /* FirstView.swift in Sources */,
 				412C389627EA002200EF4005 /* ViewController.swift in Sources */,
 				412C389127E9FE7D00EF4005 /* TabContentView.swift in Sources */,
+				412C38A827EB8B0900EF4005 /* GoBackView.swift in Sources */,
 				412C387227E9F01C00EF4005 /* SwiftUI_navigation_testApp.swift in Sources */,
+				412C38A527EB854D00EF4005 /* UIKitCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,13 +393,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				412C388E27E9FDA300EF4005 /* TabCoordinator.swift in Sources */,
-				412C38A327EA067C00EF4005 /* NavigationController.swift in Sources */,
+				412C38A327EA067C00EF4005 /* NavigationControllerView.swift in Sources */,
 				412C388B27E9F6D200EF4005 /* Coordinator.swift in Sources */,
-				412C388827E9F05000EF4005 /* ContentView2.swift in Sources */,
-				412C387527E9F01C00EF4005 /* ContentView.swift in Sources */,
+				412C388827E9F05000EF4005 /* SecondView.swift in Sources */,
+				412C387527E9F01C00EF4005 /* FirstView.swift in Sources */,
 				412C389727EA002200EF4005 /* ViewController.swift in Sources */,
 				412C389227E9FE7D00EF4005 /* TabContentView.swift in Sources */,
+				412C38A927EB8B0900EF4005 /* GoBackView.swift in Sources */,
 				412C387327E9F01C00EF4005 /* SwiftUI_navigation_testApp.swift in Sources */,
+				412C38A627EB854D00EF4005 /* UIKitCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -769,25 +793,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		412C389E27EA055200EF4005 /* XCRemoteSwiftPackageReference "SwiftUIKitView" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/AvdLee/SwiftUIKitView.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		412C389F27EA055200EF4005 /* SwiftUIKitView */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 412C389E27EA055200EF4005 /* XCRemoteSwiftPackageReference "SwiftUIKitView" */;
-			productName = SwiftUIKitView;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 412C384527E9F01B00EF4005 /* Project object */;
 }

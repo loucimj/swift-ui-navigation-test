@@ -1,12 +1,4 @@
 //
-//  ContentView2.swift
-//  SwiftUI-navigation-test
-//
-//  Created by Javier Loucim on 22/03/2022.
-//
-
-import Foundation
-//
 //  ContentView.swift
 //  Shared
 //
@@ -15,13 +7,16 @@ import Foundation
 
 import SwiftUI
 
-struct ContentView2: View {
+struct SecondView: View {
     let coordinator: Coordinator 
     var body: some View {
         NavigationView {
             VStack {
                 Text("You are here")
                     .padding()
+                NavigationLink("Navigate to another screen", destination: {
+                    
+                })
             }
             .navigationTitle("Second screen")
         }
@@ -36,6 +31,6 @@ struct ContentView2: View {
 
 struct ContentView2_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView2(coordinator: Coordinator())
+        SecondView(coordinator: Coordinator())
     }
 }

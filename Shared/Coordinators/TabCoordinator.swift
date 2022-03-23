@@ -7,20 +7,17 @@
 
 import Foundation
 import SwiftUI
-import SwiftUIKitView
 
 class TabCoordinator {
     
-
+    let uiKitCoordinator = UIKitCoordinator()
     @ViewBuilder
     func tab1View() -> some View {
-        ContentView()
+        FirstView(viewModel: FirstViewViewModel())
     }
 
     @ViewBuilder
     func tab2View() -> some View {
-        NavigationController(viewControllers: [
-            ViewController()
-        ])
+        uiKitCoordinator.startingSwiftUIView()
     }
 }
